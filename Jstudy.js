@@ -58,3 +58,17 @@ let studentsName = ["Code Kim", "Wecode Chung"];
 
 console.log(studentsName);
 //[ 'Code Kim', 'Wecode Chung' ]이 출력된다.
+
+//Object 객체
+/*Object 객체 또한 여러가지 데이터들이 모여있는 묶음이다.
+Array 배열과는 달리 Object는 앞에 '키'라고 해서 이름을 붙여야한다.
+예) {name: 'Code Kim', isDeveloper: true}
+여기서 name과 isDeveloper는 key이고
+'Code Kim'과 true가 value라고 한다.*/
+let myObject = {
+  name: "Code Kim",
+  isDeveloper: true,
+};
+
+console.log(myObject);
+//{name: 'Code Kim', isDeveloper: true}라고 출력된다.
