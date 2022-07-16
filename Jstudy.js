@@ -39,3 +39,22 @@ console.log("100 plus 200 equals to", number1 + number2);
 console.log("number1:", number1);
 // number1: 100 이라고 출력된다.
 // 변수 number1의 값이 정확히 뭔지 확인할 수 있다.
+
+/*Boolean
+Boolean은 참, 거짓 (true/false)로 데이터를 표현하는 것이다. */
+let myAnswer = true;
+
+let yourAnswer = false;
+
+console.log(myAnswer);
+// true가 출력된다.
+// 맞는지 틀린지 구분할 때 사용되는 데이터 타입이다. 그래서 조건문에서 많이 활용이 된다.
+
+/*이제 참조타입에 대해 알아 보자.
+Array는 값이 일렬로 모여있는 배열이다. 
+예) [19, 44, 'good', false]
+대괄호 안에 각기 다른 타입의 데이터들이 들어갈 수 있다.*/
+let studentsName = ["Code Kim", "Wecode Chung"];
+
+console.log(studentsName);
+//[ 'Code Kim', 'Wecode Chung' ]이 출력된다.
