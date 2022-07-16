@@ -1,3 +1,4 @@
+// Number
 let myNumber1 = 0;
 let myNumber2 = 2;
 let myNumber3 = 500;
